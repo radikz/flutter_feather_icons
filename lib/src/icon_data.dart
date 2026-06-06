@@ -1,12 +1,3 @@
-library flutter_feather_icons;
-
-import "package:flutter/widgets.dart";
-
-class FeatherIconData extends IconData {
-  const FeatherIconData(int codePoint)
-      : super(
-          codePoint,
-          fontFamily: "FeatherIcons",
-          fontPackage: "flutter_feather_icons",
-        );
-}
+// This file is intentionally left empty.
+// IconData is a final class in recent Flutter versions,
+// so we construct it directly with font parameters instead.
